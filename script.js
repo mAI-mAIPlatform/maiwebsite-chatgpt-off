@@ -1,0 +1,1 @@
+/mnt/data/tmp/rebuild/script.js
