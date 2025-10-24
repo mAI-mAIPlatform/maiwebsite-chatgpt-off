@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>mAI Blog — m-5</title>
+  <meta name="description" content="Blog officiel de mAI. Article : m-5 — Nouvelle génération." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header glass">
+    <div class="container">
+      <h1 class="brand">mAI <span class="tag">Blog</span></h1>
+      <nav>
+        <a href="#" class="nav-link active">Accueil</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="post glass">
+      <img src="assets/m-5-banner.png" alt="m-5 — Nouvelle génération" class="hero"/>
+      <div class="post-body">
+        <h2>m-5 — Nouvelle génération</h2>
+        <p class="meta">Publié par <strong>mAI Developers</strong> · <time id="pubDate"></time></p>
+        <p>m-5 ouvre une nouvelle ère pour l’intelligence artificielle signée mAI. Pensé pour le quotidien, il combine rapidité, précision, et une compréhension plus naturelle du langage. Les réponses sont plus fluides, plus contextuelles, et mieux alignées avec ce que tu veux faire.</p>
+        <ul>
+          <li><strong>Naturel</strong> : comprend mieux les intentions et les nuances.</li>
+          <li><strong>Rapide</strong> : latence réduite pour un usage au quotidien.</li>
+          <li><strong>Polyvalent</strong> : texte, code, créativité — sans friction.</li>
+        </ul>
+        <p>m-5 n’est pas juste un modèle. C’est une base plus intelligente pour tous les produits mAI — de mWriter à mSearch — avec une expérience plus claire et des résultats utiles, tout de suite.</p>
+      </div>
+    </article>
+
+    <section id="about" class="glass info">
+      <h3>À propos</h3>
+      <p>mAI Blog est l’espace officiel où l’on publie des articles, annonces et coulisses techniques. Suis les versions, les idées et les prochains lancements.</p>
+    </section>
+
+    <section id="contact" class="glass info">
+      <h3>Contact</h3>
+      <p>Envie de collaborer ou de proposer un sujet ? Écris à <a href="mailto:contact@mcompany.example">contact@mcompany.example</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> mAI — Tous droits réservés.</p>
+  </footer>
+
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
